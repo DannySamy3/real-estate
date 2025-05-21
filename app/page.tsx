@@ -124,7 +124,7 @@ export default function Home() {
                 </div>
                 <div className='relative h-60 md:h-72 overflow-hidden rounded-lg'>
                   <Image
-                    src='/images/award-trophy.jpg'
+                    src='https://images.unsplash.com/photo-1628584824791-30d512161601?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dHJvcHklMjBhd2FyZHxlbnwwfHwwfHx8MA%3D%3D'
                     alt='Real estate award trophy'
                     fill
                     className='object-cover'
@@ -141,7 +141,7 @@ export default function Home() {
                 </div>
                 <div className='hidden md:block relative h-60 md:h-72 overflow-hidden rounded-lg'>
                   <Image
-                    src='/images/stats-luxury.jpg'
+                    src='https://images.unsplash.com/photo-1619346270223-c137f4052523?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjU2fHxleHBlcmllbmNlJTIwaW4lMjB0aW1lfGVufDB8fDB8fHww'
                     alt='Luxury estate'
                     fill
                     className='object-cover'
