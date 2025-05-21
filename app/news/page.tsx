@@ -15,9 +15,9 @@ import { Building2, Calendar, Clock, ChevronRight, Search } from "lucide-react";
 const newsArticles = [
   {
     id: 1,
-    title: "Luxury Real Estate Market Trends for 2025",
+    title: "Luxury Real Estate Market Trends in Dar es Salaam for 2025",
     excerpt:
-      "Discover the emerging trends that are shaping the luxury real estate market in 2025 and beyond.",
+      "Discover the emerging trends that are shaping the luxury real estate market in Dar es Salaam in 2025 and beyond.",
     date: "May 15, 2025",
     readTime: "5 min read",
     category: "Market Trends",
@@ -26,62 +26,62 @@ const newsArticles = [
   },
   {
     id: 2,
-    title: "How to Increase Your Property's Value Before Selling",
+    title: "Investing in Zanzibar Real Estate: Opportunities and Insights",
     excerpt:
-      "Learn the most effective renovations and improvements that can significantly boost your property's market value.",
+      "Learn about the potential for real estate investment in Zanzibar and key insights for navigating the market.",
     date: "May 10, 2025",
     readTime: "4 min read",
-    category: "Selling Tips",
+    category: "Investment",
     image: "/images/news-2.jpg",
   },
   {
     id: 3,
-    title: "The Impact of Smart Home Technology on Property Values",
+    title: "Sustainable Building Practices in Tanzania",
     excerpt:
-      "Explore how integrating smart home features can enhance your property's appeal and value in today's market.",
+      "Explore how sustainable and eco-friendly building practices are gaining traction in the Tanzanian construction sector.",
     date: "May 5, 2025",
     readTime: "6 min read",
-    category: "Technology",
+    category: "Sustainability",
     image: "/images/news-3.jpg",
   },
   {
     id: 4,
-    title: "Navigating the Mortgage Process: A Comprehensive Guide",
+    title: "Navigating Property Laws and Regulations in Tanzania",
     excerpt:
-      "A step-by-step guide to understanding and successfully navigating the mortgage application process.",
+      "A guide to understanding the legal aspects of buying and selling property in Tanzania.",
     date: "April 28, 2025",
     readTime: "7 min read",
-    category: "Financing",
+    category: "Legal",
     image: "/images/news-4.jpg",
   },
   {
     id: 5,
-    title: "Sustainable Living: Eco-Friendly Features Buyers Want",
+    title: "The Rise of Urban Development in Dodoma",
     excerpt:
-      "Discover the sustainable features that environmentally conscious buyers are looking for in today's market.",
+      "Discover how Dodoma's growth as the capital is impacting its real estate landscape and investment opportunities.",
     date: "April 22, 2025",
     readTime: "5 min read",
-    category: "Sustainability",
+    category: "Urban Development",
     image: "/images/news-5.jpg",
   },
   {
     id: 6,
-    title: "Investment Properties: Analyzing ROI in Different Markets",
+    title: "Tips for Selling Property in Arusha's Growing Market",
     excerpt:
-      "Learn how to evaluate potential investment properties and calculate ROI across different real estate markets.",
+      "Insights and strategies for successfully selling your property in the competitive Arusha real estate market.",
     date: "April 15, 2025",
     readTime: "8 min read",
-    category: "Investment",
+    category: "Selling Tips",
     image: "/images/news-6.jpg",
   },
   {
     id: 7,
-    title: "Designing the Perfect Home Office: Tips from the Experts",
+    title: "Understanding Mortgage Options in Tanzania",
     excerpt:
-      "With remote work becoming permanent for many, here's how to create a productive and appealing home office space.",
+      "A comprehensive look at the available mortgage options and financing for potential homeowners in Tanzania.",
     date: "April 8, 2025",
     readTime: "4 min read",
-    category: "Interior Design",
+    category: "Financing",
     image: "/images/news-7.jpg",
   },
 ];

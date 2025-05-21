@@ -116,9 +116,10 @@ export default function ContactPage() {
                   </div>
                   <h3 className='text-xl font-bold mb-2'>Our Office</h3>
                   <p className='text-muted-foreground'>
-                    123 Real Estate Blvd, Suite 100
+                    Ali Hassan Mwinyi Road, <br />
+                    Regent Estate
                     <br />
-                    New York, NY 10001
+                    Dar es Salaam, Tanzania
                   </p>
                 </CardContent>
               </Card>
@@ -129,9 +130,9 @@ export default function ContactPage() {
                   </div>
                   <h3 className='text-xl font-bold mb-2'>Phone</h3>
                   <p className='text-muted-foreground'>
-                    Main: (555) 123-4567
+                    Main: +255 765 123 456
                     <br />
-                    Support: (555) 987-6543
+                    Support: +255 678 789 012
                   </p>
                 </CardContent>
               </Card>
@@ -142,9 +143,9 @@ export default function ContactPage() {
                   </div>
                   <h3 className='text-xl font-bold mb-2'>Email</h3>
                   <p className='text-muted-foreground'>
-                    info@primeestate.com
+                    info@skylinerealty.co.tz
                     <br />
-                    support@primeestate.com
+                    support@skylinerealty.co.tz
                   </p>
                 </CardContent>
               </Card>
@@ -534,17 +535,20 @@ export default function ContactPage() {
                 <li className='flex items-start gap-2'>
                   <MapPin className='h-5 w-5 text-muted-foreground shrink-0 mt-0.5' />
                   <span className='text-muted-foreground'>
-                    123 Real Estate Blvd, Suite 100, New York, NY 10001
+                    Ali Hassan Mwinyi Road, Regent Estate Dar es Salaam,
+                    Tanzania
                   </span>
                 </li>
                 <li className='flex items-center gap-2'>
                   <Phone className='h-5 w-5 text-muted-foreground' />
-                  <span className='text-muted-foreground'>(555) 123-4567</span>
+                  <span className='text-muted-foreground'>
+                    +255 765 123 456
+                  </span>
                 </li>
                 <li className='flex items-center gap-2'>
                   <Mail className='h-5 w-5 text-muted-foreground' />
                   <span className='text-muted-foreground'>
-                    info@primeestate.com
+                    info@skylinerealty.co.tz
                   </span>
                 </li>
               </ul>

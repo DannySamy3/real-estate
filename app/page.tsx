@@ -124,8 +124,8 @@ export default function Home() {
                 </div>
                 <div className='relative h-60 md:h-72 overflow-hidden rounded-lg'>
                   <Image
-                    src='/images/stats-modern.jpg'
-                    alt='Modern home'
+                    src='/images/award-trophy.jpg'
+                    alt='Real estate award trophy'
                     fill
                     className='object-cover'
                   />

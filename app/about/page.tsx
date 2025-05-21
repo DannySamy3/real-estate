@@ -164,22 +164,22 @@ export default function AboutPage() {
             <div className='grid gap-8 sm:grid-cols-2 lg:grid-cols-4'>
               {[
                 {
-                  name: "Michael Johnson",
+                  name: "Asha Mwinyi",
                   title: "Founder & CEO",
                   image: "/images/team-michael.jpg",
                 },
                 {
-                  name: "Jessica Parker",
+                  name: "Juma Mwakalinga",
                   title: "Senior Real Estate Agent",
                   image: "/images/team-jessica.jpg",
                 },
                 {
-                  name: "Robert Chen",
+                  name: "Neema Mushi",
                   title: "Real Estate Consultant",
                   image: "/images/team-robert.jpg",
                 },
                 {
-                  name: "Maria Rodriguez",
+                  name: "Baraka Mtemi",
                   title: "Property Specialist",
                   image: "/images/team-maria.jpg",
                 },

@@ -277,22 +277,22 @@ export default function SellPage() {
                 {
                   quote:
                     "SKYLINE REALTY sold my property for 15% above asking price in just two weeks. Their marketing strategy and negotiation skills are unmatched.",
-                  name: "Sarah Johnson",
-                  location: "Beverly Hills",
+                  name: "Amina Hassan",
+                  location: "Masaki, Dar es Salaam",
                   image: "/images/sell-testimonial-1.jpg",
                 },
                 {
                   quote:
                     "The team at SKYLINE REALTY made selling my home stress-free. Their attention to detail and constant communication kept me informed every step of the way.",
-                  name: "Michael Chen",
-                  location: "Miami",
+                  name: "Rajabu Said",
+                  location: "Oysterbay, Dar es Salaam",
                   image: "/images/sell-testimonial-2.jpg",
                 },
                 {
                   quote:
                     "I was impressed by the professional photography and virtual tour they created for my property. It attracted serious buyers immediately.",
-                  name: "Emily Rodriguez",
-                  location: "New York",
+                  name: "Sophia Juma",
+                  location: "Arusha",
                   image: "/images/sell-testimonial-3.jpg",
                 },
               ].map((testimonial, index) => (
