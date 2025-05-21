@@ -1,0 +1,248 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
+    --card: 0 0% 5%;
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 5%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 180 100% 50%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 0 0% 9%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 70%;
+    --accent: 180 100% 45%;
+    --accent-foreground: 0 0% 0%;
+    --destructive: 0 100% 50%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 180 100% 50%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 16 100% 62%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 16 100% 62%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+/* Custom styles for property cards and other components */
+.property-card-badge {
+  @apply absolute top-4 left-4 bg-white text-navy-900 text-xs font-medium px-2 py-1 rounded;
+}
+
+.property-card-favorite {
+  @apply absolute top-4 right-4 bg-white/80 p-1.5 rounded-full;
+}
+
+.property-type-card {
+  @apply flex flex-col items-center justify-center p-6 rounded-lg border border-navy-700 bg-navy-800 hover:border-orange-500 transition-all;
+}
+
+.property-type-icon {
+  @apply w-12 h-12 mb-3 text-white;
+}
+
+.search-tab {
+  @apply px-6 py-2 text-sm font-medium;
+}
+
+.search-tab.active {
+  @apply bg-orange-500 text-white rounded-t-md;
+}
+
+.search-tab:not(.active) {
+  @apply text-gray-300 hover:text-white;
+}
+
+.search-form {
+  @apply bg-navy-800/90 backdrop-blur-sm p-4 rounded-md;
+}
+
+.search-input-group {
+  @apply flex flex-col space-y-1;
+}
+
+.search-input-label {
+  @apply text-xs text-gray-300;
+}
+
+.search-input {
+  @apply bg-navy-700 border border-navy-600 rounded text-white text-sm p-2;
+}
+
+.search-button {
+  @apply bg-orange-500 hover:bg-orange-600 text-white py-2 px-4 rounded;
+}
+
+.rating-stars {
+  @apply flex text-yellow-400 text-sm;
+}
+
+.property-feature {
+  @apply flex items-center text-gray-400 text-sm;
+}
+
+.section-title {
+  @apply text-2xl font-bold mb-6;
+}
+
+.section-subtitle {
+  @apply text-lg text-gray-300 mb-8;
+}
+
+.tab-button {
+  @apply px-3 py-1 text-xs font-medium rounded-full;
+}
+
+.tab-button.active {
+  @apply bg-orange-500 text-white;
+}
+
+.tab-button:not(.active) {
+  @apply bg-gray-200 text-gray-700 hover:bg-gray-300;
+}
+
+.hero-carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-carousel::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.carousel-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+.stats-card {
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery-item-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+  z-index: 2;
+}
+
+.search-bar {
+  background-color: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 0.375rem;
+}
+
+/* Navy color palette */
+.bg-navy-900 {
+  background-color: #0f172a;
+}
+
+.bg-navy-800 {
+  background-color: #1e293b;
+}
+
+.bg-navy-700 {
+  background-color: #334155;
+}
+
+.bg-navy-600 {
+  background-color: #475569;
+}
+
+.border-navy-700 {
+  border-color: #334155;
+}
+
+.text-navy-900 {
+  color: #0f172a;
+}
+
+/* Orange color palette */
+.bg-orange-500 {
+  background-color: #ff5a3c;
+}
+
+.bg-orange-600 {
+  background-color: #ff3a14;
+}
+
+.text-orange-500 {
+  color: #ff5a3c;
+}
+
+.border-orange-500 {
+  border-color: #ff5a3c;
+}
+
+.hover\:bg-orange-600:hover {
+  background-color: #ff3a14;
+}
+
+.hover\:text-orange-500:hover {
+  color: #ff5a3c;
+}
+
+.hover\:border-orange-500:hover {
+  border-color: #ff5a3c;
+}
