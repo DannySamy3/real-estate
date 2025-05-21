@@ -107,7 +107,7 @@ export default function Home() {
               <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                 <div className='relative h-60 md:h-72 overflow-hidden rounded-lg'>
                   <Image
-                    src='/images/stats-interior.jpg'
+                    src='https://images.unsplash.com/photo-1724638197367-1bab34842f90?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDE4fHxwcm9qZWN0c3xlbnwwfHwwfHx8MA%3D%3D'
                     alt='Interior design'
                     fill
                     className='object-cover'
